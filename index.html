@@ -8,14 +8,21 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <input type="text" id="searchbox"/>
-  <h2>City</h2>
-  <h1>Temp</h1>
-  <span>Min. & Max. Temp</span> 
-  <h4>Weather</h4>
-  <p>Weather Description</p> 
-  <span>Wind Direction & Speed</span>
-
-  <script src="./script.js"></script>
+    <section class="top-banner">
+        <div class="container">
+          <h1 class="heading">Simple Weather App</h1>
+          <form>
+            <input type="text" placeholder="Search for a city" autofocus>
+            <button type="submit">SUBMIT</button>
+            <span class="msg"></span>
+          </form>
+        </div>
+      </section>
+      <section class="ajax-section">
+        <div class="container">
+          <ul class="cities"></ul>
+        </div>
+      </section>
+      <script src="./script.js"></script>
 </body>
 </html>

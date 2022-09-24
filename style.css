@@ -1,4 +1,23 @@
-body {
-    font-family: "Noto Sans" , sans-serif;
-    text-align: center;
-}
+:root {
+    --bg_main: #0a1f44;
+    --text_light: #fff;
+    --text_med: #53627c;
+    --text_dark: #1e2432;
+    --red: #ff1e42;
+    --darkred: #c3112d;
+    --orange: #ff8c00;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+ 
