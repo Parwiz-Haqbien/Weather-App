@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+  }
+
+  body {
+    background-color: #87CEEB;
+  }
+  
+.header {
+    color: #fff;
+    padding: 2rem;
+}
+button {
+    cursor: pointer;
+}
+#Name {
+    -webkit-appearance: none;
+}
+
+button,
+#Name {
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+}
+
+#Name {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#Name {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+.container form input::placeholder {
+    color: currentColor; 
+}
+
