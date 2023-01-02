@@ -1,37 +1,18 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html {
-    height: 100%;
-  }
-
-  body {
-    background-color: #87CEEB;
-  }
-  
 .header {
-    color: #fff;
-    padding: 2rem;
+  color: #fff;
+  padding: 1rem;
 }
-
-.container {
-    color: #fff;
-    float: left;
-    padding: 2rem;
+h2 {
+  font-size: 5rem;
 }
-
-input::placeholder {
-    color: white;
-  }
-  
-button,
-#Name {
-    border: none;
-    background: none;
-    outline: none;
-    color: inherit;
+h4 {
+  padding-left: 1rem;
+  position: relative;
+  top: 2rem;
+}
+body {
+  background-color: #87CEEB;
+  font-size: 25px;
 }
 #Name {
     font-size: 2rem;
@@ -39,19 +20,29 @@ button,
     padding: 5px 5px 10px;
     border-bottom: 1px solid;
 }
-
-.container form input::placeholder {
-    color: currentColor; 
+#Name {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+  padding: 1rem;
+}
+.searchHistory{
+    font-weight: bold;
+}
+h1 {
+  color: #fff;
+  padding: 1rem;
 }
 
-button {
-    position: fixed;
-    left: 27rem;
-    font-size: 14px;
-    background: #ADD8E6 ;
-    width: 100px;
-    height: 50px;
-    text-decoration: none;
+input::placeholder {
+  color: white;
+}
+#submit {
+    font-size:14px;
+    width:100%;
+    height:35px;
+    background-color: #ADD8E6;
     text-transform: uppercase;
     color: #fff;
     border-radius: 5px;
@@ -61,11 +52,17 @@ button {
     -webkit-duration: 0,3s ;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
+    border-width:1px;
+    margin: 10px;
   }
-  button:hover {
+
+  #submit:hover {
     box-shadow: 0 0 20px rgba(0, 0 ,0 , 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+  }  
+  h3 {
+    color: #fff;
   }
 
   #searchHistory{
@@ -73,11 +70,10 @@ button {
     text-align: center;
   }
 
-  h3{
+  #searchHistory button{
+    background-color: #ADD8E6;
     color: #fff;
-  }
-#nextFive {
-  padding-right: 20rem;
+    margin: 2%;
 }
 
 
