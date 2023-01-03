@@ -23,4 +23,4 @@ Search for a city on the webpage to view current weather data and a 5-day foreca
 ## Contribution
 Made by Parwiz Haqbien
 
-video url(https://parwiz-haqbien.github.io/Weather-Dashboard/)
+page url(https://parwiz-haqbien.github.io/Weather-Dashboard/)
